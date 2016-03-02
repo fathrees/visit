@@ -1,0 +1,12 @@
+<h3 class='text-center text-success'>Carousel!</h3>
+<div class="gallery">
+    <uib-carousel interval='carousel.interval' no-wrap='carousel.noWrap'>
+        <uib-slide ng-repeat='slide in carousel.slides' active='slide.active'>
+            <img ng-src='{{slide.image}}' style='margin:auto;'>
+            <div class='carousel-caption'>
+            </div>
+        </uib-slide>
+    </uib-carousel>
+</div>
+
+
