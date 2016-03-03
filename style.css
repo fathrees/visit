@@ -1,17 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@font-face {
-    font-family: myfont;
-    src: url("app/fonts/myfont.ttf");
-}
 body{
     background-color: #F5F5F5;
-}
-.myfont {
-    font-family: myfont;
-    color: #000033;
-    font-size: 33px;
-    text-shadow: none;
-    font-weight:500;
 }
 .navbar-default {
     background-color: #03A9F5;
@@ -36,7 +25,7 @@ h3{
 }
 /*svg-page*/
 .round-nav{
-     width: 300px;
+    width: 300px;
     margin-top: -20px;
  }
 .col-md-6 p{
