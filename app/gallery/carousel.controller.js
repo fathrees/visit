@@ -1,5 +1,4 @@
-angular
-    .module('carouselApp')
+angular.module('carouselApp')
     .controller('carouselCtrl', function() {
         var numPic = 5;
         var vm = this;

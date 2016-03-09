@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+body{
+    background-color: #F5F5F5;
+}
+.navbar-default {
+    background-color: #03A9F5;
+}
+.nav-pills > li > a{
+    text-transform: uppercase;
+}
+.nav {
+    float: right;
+    margin-top: 5px;
+}
+.header{
+    height: 200px;
+    background: url("new-york.jpg") no-repeat;
+    background-size: 100%;
+}
+/*home page*/
+h3{
+    font-size: 40px;
+    margin-top: 25px;
+    font-family: 'Inconsolata';
+}
+/*svg-page*/
+.round-nav{
+    width: 300px;
+    margin-top: -20px;
+ }
+.col-md-6 p{
+    font-size: 18px;
+    font-family: 'Inconsolata';
+
+}
+/*gallery*/
+.gallery{
+    padding-bottom: 50px;
+}
+.navbar-brand{
+    font-family: 'Inconsolata';
+    color: #fff;
+}
